@@ -297,10 +297,17 @@ document.getElementById("display-pesel").innerText = localStorage.getItem("pesel
 
         </script>
     </main>
-  <section id="bottom" style="display:flex;align-items:center;gap:10px;margin:12px 0;">
-  <img src="checkmark.png?v=5" alt="checkmark" style="width:32px;height:32px;flex-shrink:0;">
+<section id="bottom" style="display:flex;align-items:center;gap:10px;margin:12px 0;">
+  <svg xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 24 24"
+       style="width:36px;height:36px;flex:0 0 36px;display:inline-block;">
+    <circle cx="12" cy="12" r="9" fill="none" stroke="#2e7d32" stroke-width="2.4"/>
+    <path d="M8 12.5l3 3 5-6" fill="none" stroke="#2e7d32"
+          stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
   <p style="margin:0;font-size:18px;color:#2e7d32;font-weight:600;">Dokument ważny</p>
 </section>
+
 
 
     <a class="buto" style="cursor: pointer; display: flex; align-items: center; padding: 40px 20px ; border-radius: 10px; background-color: white; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
