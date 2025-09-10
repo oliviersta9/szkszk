@@ -297,10 +297,11 @@ document.getElementById("display-pesel").innerText = localStorage.getItem("pesel
 
         </script>
     </main>
-    <section id="bottom">
-        <img src="https://sb987c4zjvju65987b.ct8.pl/dowod_files/checkmark.svg" alt="checkmark">
-        <p>Dokument ważny</p>
-    </section>
+   <section id="bottom" style="display:flex;align-items:center;gap:6px;">
+  <img src="checkmark.png?v=1" alt="checkmark" width="24" height="24" style="vertical-align:middle;">
+  <p style="margin:0;">Dokument ważny</p>
+</section>
+
     <a class="buto" style="cursor: pointer; display: flex; align-items: center; padding: 40px 20px ; border-radius: 10px; background-color: white; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
         <img style="width: 35px;" src="dowod_files/checkbo.png" alt="checkbox">
         <p style="margin-left: 10px; font-weight: bold;">Potwierdź swoje dane</p>
